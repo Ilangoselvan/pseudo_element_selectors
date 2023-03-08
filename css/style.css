@@ -1,0 +1,31 @@
+/*pesudoelement selectors*/
+/*firstline*/
+p::first-line{
+	color:red;
+	font-size:25px;
+	background-color:black;
+	
+}
+/*firstletter*/
+p::first-letter{
+	color:green;
+	font-size:50px;
+}
+/*before*/
+h1::before{
+	content:url(../image/icon.png);
+}
+/*after*/
+h1::after{
+	content:url(../image/landscape.jpg);height:50px;width:50px;
+}
+/*marker*/
+li::marker{
+	color:gray;
+	font-size:30px;
+}
+/*selection*/
+::selection{
+	color:blue;
+	background-color:pink;
+}
